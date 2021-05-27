@@ -1,0 +1,23 @@
+Implementation of Board, Player and Disks:
+
+First, a structure was created for a single node that represents a position on the board. This structure contains a char and int that displays it's position to the user.
+It also has a char that determines the disk on it e.g. W for white and B for black.
+After that, a structure called Player was created which has a char array to store the players' names and int to store the score of the players.
+Lastly, a board structure was created which contains a 2-D array of the Node struct and 2 objects of the Player struct.
+
+Implementation of Game Logic:
+
+Game logic is implemented in following way:
+•	Accept player names.
+•	Initialise the board and empty nodes.
+•	Place two disks for each player.
+•	Calculate score.
+•	Print table.
+•	Start loop.
+•	Accept input from player.
+•	Check input format.
+•	Check valid points.
+•	If valid points are available, then move, otherwise pass.
+•	Repeat the steps for both players until both players have no valid moves left or the board is full.
+•	Print results.
+•	Save data to file.
